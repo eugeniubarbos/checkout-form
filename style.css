@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+    font-family: Montserrat-Regular;
+    text-align: ;
+}
+@font-face {
+    font-family:'Montserrat-Regular';
+    src: url('./FONTS/Montserrat-Regular.ttf');
+}
+header{
+    text-align: center;
+    font-size: 32px;
+    margin: 10px;
+}
+.left, .right{
+    
+    width: 40%;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+
+}
+.left{
+    padding:0 30px 30px 30px;
+}
+label{
+    display: block;
+    margin: 10px 0;
+    
+}
+.check-box-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+h2{
+    padding: 10px 0;
+}
+.shippingh2{
+    margin-top: 40px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    padding-inline-start: 40px;
+    
+}
+.checkboxinput{
+    width: unset;
+}
+.countryPostCode{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+select{
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px 5px 40px;
+}
+img{
+    width: 130px;
+    border-radius: 10px;
+}
+.itemwrapper{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+.prices{
+  margin-top: 40px;
+
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding-bottom: 15px;
+    
+}
+.buttonwrapper{
+    display: flex;
+    /* gap: 10px; */
+    border: 1px solid grey;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 5px;
+    width: 70px;
+    margin-top: 30px;
+    
+}
+.buttonwrapper button{
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: rgb(203, 203, 203);
+    border: none;
+
+    
+}
+.right{
+    background-color: rgb(234, 233, 233);
+    border-radius: 10px;
+    padding: 20px;
+
+}
+span{
+    color: orange;
+}
+del{
+    font-size: 15px;
+}
+.bottombutton{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    
+
+}
+.bottombuttons{
+    margin-top: 30px;
+   text-align: center;
+}
